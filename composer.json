@@ -1,0 +1,27 @@
+{
+    "name": "olythy/sku-builder",
+    "description": "Build sku from data source",
+    "type": "library",
+    "require": {
+        "rappasoft/laravel-helpers": "dev-master",
+        "tightenco/collect": "^5.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karoly Nemethy",
+            "email": "olythy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SkuBuilder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SkuBuilder\\Test\\": "tests/"
+        }
+    }
+}
