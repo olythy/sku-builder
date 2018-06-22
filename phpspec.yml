@@ -1,0 +1,4 @@
+suites:
+  default:
+    namespace: SkuBuilder
+    psr4_prefix: SkuBuilder

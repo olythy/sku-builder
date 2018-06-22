@@ -3,8 +3,7 @@
     "description": "Build sku from data source",
     "type": "library",
     "require": {
-        "rappasoft/laravel-helpers": "dev-master",
-        "tightenco/collect": "^5.5"
+        "rappasoft/laravel-helpers": "dev-master"
     },
     "license": "MIT",
     "authors": [
@@ -15,13 +14,19 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
         "psr-4": {
             "SkuBuilder\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SkuBuilder\\Test\\": "tests/"
+            "Tests\\": "tests/"
         }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.3@dev"
     }
 }
